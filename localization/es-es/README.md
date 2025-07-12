@@ -1,0 +1,94 @@
+# 🤖 Increíbles Personalizaciones de GitHub Copilot
+
+Mejora tu experiencia con GitHub Copilot utilizando instrucciones, prompts y configuraciones contribuidas por la comunidad. Obtén asistencia de IA consistente que sigue los estándares de codificación de tu equipo y los requisitos de tu proyecto.
+
+## 🎯 Características de Personalización de GitHub Copilot
+
+GitHub Copilot proporciona tres maneras principales de personalizar las respuestas de IA y adaptar la asistencia a tus flujos de trabajo específicos, directrices de equipo y requisitos de proyecto:
+
+| **📋 [Instrucciones Personalizadas](#-instrucciones-personalizadas)** | **🎯 [Prompts Reutilizables](#-prompts-reutilizables)** | **🧩 [Modos de Chat Personalizados](#-modos-de-chat-personalizados)** |
+| --- | --- | --- |
+| Define directrices comunes para tareas como generación de código, revisiones y mensajes de commit. Describe *cómo* deben realizarse las tareas<br><br>**Beneficios:**<br>• Inclusión automática en cada solicitud de chat<br>• Consistencia a nivel de repositorio<br>• Múltiples opciones de implementación | Crea prompts independientes y reutilizables para tareas específicas. Describe *qué* debe hacerse con directrices opcionales específicas de la tarea<br><br>**Beneficios:**<br>• Elimina la escritura repetitiva de prompts<br>• Compartibles entre equipos<br>• Soporte para variables y dependencias | Define comportamiento de chat, herramientas disponibles y patrones de interacción con la base de código dentro de límites específicos para cada solicitud<br><br>**Beneficios:**<br>• Asistencia consciente del contexto<br>• Configuración de herramientas<br>• Flujos de trabajo específicos de rol |
+
+> **💡 Consejo Pro:** Las instrucciones personalizadas solo afectan a Copilot Chat (no a las completaciones de código en línea). Puedes combinar los tres tipos de personalización: usa instrucciones personalizadas para directrices generales, archivos de prompt para tareas específicas y modos de chat para controlar el contexto de interacción.
+
+
+## 📝 Contribuyendo
+
+¡Damos la bienvenida a contribuciones! Por favor, consulta nuestra [Guía de Contribución](../../CONTRIBUTING.md) para detalles sobre cómo enviar nuevas instrucciones y prompts.
+
+## 📋 Instrucciones Personalizadas
+
+Instrucciones específicas de equipo y proyecto para mejorar el comportamiento de GitHub Copilot para tecnologías específicas y prácticas de codificación:
+
+| Título | Descripción | Instalar |
+| ----- | ----------- | ------- |
+| [Instrucciones de Desarrollo Angular](../../instructions/angular.instructions.md) | Estándares de codificación específicos de Angular y mejores prácticas | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fangular.instructions.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fangular.instructions.md) |
+| [Desarrollo de API REST ASP.NET](../../instructions/aspnet-rest-apis.instructions.md) | Directrices para construir APIs REST con ASP.NET | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Faspnet-rest-apis.instructions.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Faspnet-rest-apis.instructions.md) |
+| [Azure Functions TypeScript](../../instructions/azure-functions-typescript.instructions.md) | Patrones de TypeScript para Azure Functions | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fazure-functions-typescript.instructions.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fazure-functions-typescript.instructions.md) |
+| [Mejores Prácticas de Código Bicep](../../instructions/bicep-code-best-practices.instructions.md) | Infraestructura como Código con Bicep | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fbicep-code-best-practices.instructions.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fbicep-code-best-practices.instructions.md) |
+| [Blazor](../../instructions/blazor.instructions.md) | Patrones de componentes y aplicaciones Blazor | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fblazor.instructions.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fblazor.instructions.md) |
+| [Cmake Vcpkg](../../instructions/cmake-vcpkg.instructions.md) | Configuración de proyectos C++ y gestión de paquetes | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fcmake-vcpkg.instructions.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fcmake-vcpkg.instructions.md) |
+| [Mejores Prácticas de Contenedorización y Docker](../../instructions/containerization-docker-best-practices.instructions.md) | Mejores prácticas integrales para crear imágenes Docker optimizadas, seguras y eficientes y gestionar contenedores. Cubre builds multi-etapa, optimización de capas de imagen, escaneo de seguridad y mejores prácticas de tiempo de ejecución. | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fcontainerization-docker-best-practices.instructions.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fcontainerization-docker-best-practices.instructions.md) |
+| [Instrucciones de Seguimiento de Procesos de Copilot](../../instructions/copilot-thought-logging.instructions.md) | Ver el proceso que sigue Copilot donde puedes editar esto para remodelar la interacción o guardar cuando pueda ser necesario un seguimiento | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fcopilot-thought-logging.instructions.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fcopilot-thought-logging.instructions.md) |
+| [Desarrollo C#](../../instructions/csharp.instructions.md) | Directrices para construir aplicaciones C# | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fcsharp.instructions.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fcsharp.instructions.md) |
+| [Principios Básicos de DevOps](../../instructions/devops-core-principles.instructions.md) | Instrucciones fundamentales que cubren principios básicos de DevOps, cultura (CALMS) y métricas clave (DORA) para guiar a GitHub Copilot en la comprensión y promoción de la entrega efectiva de software. | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fdevops-core-principles.instructions.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fdevops-core-principles.instructions.md) |
+| [.NET MAUI](../../instructions/dotnet-maui.instructions.md) | Patrones de componentes y aplicaciones .NET MAUI | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fdotnet-maui.instructions.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-instructions%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Finstructions%2Fdotnet-maui.instructions.md) |
+
+> 💡 **Uso**: Copia estas instrucciones a tu archivo `.github/copilot-instructions.md` o crea archivos `.github/.instructions.md` específicos de tarea en la carpeta `.github/instructions` de tu espacio de trabajo.
+
+## 🎯 Prompts Reutilizables
+
+Plantillas de prompts listas para usar para escenarios específicos de desarrollo y tareas, definiendo texto de prompt con un modo específico, modelo y conjunto de herramientas disponibles.
+
+| Título | Descripción | Instalar |
+| ----- | ----------- | ------- |
+| [API Mínima ASP.NET con OpenAPI](../../prompts/aspnet-minimal-api-openapi.prompt.md) | Crear endpoints de API Mínima ASP.NET con documentación OpenAPI adecuada | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-prompt%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Fprompts%2Faspnet-minimal-api-openapi.prompt.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-prompt%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Fprompts%2Faspnet-minimal-api-openapi.prompt.md) |
+| [Optimización de Costos Azure](../../prompts/az-cost-optimize.prompt.md) | Analizar recursos Azure usados en la aplicación (archivos IaC y/o recursos en un grupo de recursos objetivo) y optimizar costos - creando issues de GitHub para optimizaciones identificadas. | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-prompt%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Fprompts%2Faz-cost-optimize.prompt.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-prompt%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Fprompts%2Faz-cost-optimize.prompt.md) |
+
+## 🧩 Modos de Chat Personalizados
+
+Define comportamiento de chat, herramientas disponibles y patrones de interacción con la base de código dentro de límites específicos para cada solicitud.
+
+| Título | Descripción | Instalar |
+| ----- | ----------- | ------- |
+| [Bestia 4.1](../../chatmodes/4.1-Beast.chatmode.md) | Modo de chat avanzado con capacidades extendidas | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-mode%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Fchatmodes%2F4.1-Beast.chatmode.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-mode%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Fchatmodes%2F4.1-Beast.chatmode.md) |
+| [Accesibilidad](../../chatmodes/accesibility.chatmode.md) | Modo especializado en desarrollo accesible | [![Instalar en VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode%3Achat-mode%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Fchatmodes%2Faccesibility.chatmode.md) [![Instalar en VS Code](https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders%3Achat-mode%2Finstall%3Furl%3Dhttps%3A%2F%2Fraw.githubusercontent.com%2Fgithub%2Fawesome-copilot%2Fmain%2Fchatmodes%2Faccesibility.chatmode.md) |
+
+## ¿Qué hace exactamente este agente?
+
+Este repositorio **NO es un agente en sí mismo**, sino una **colección comunitaria de personalizaciones para GitHub Copilot**. Aquí es lo que contiene exactamente:
+
+### 🎯 **Propósito Principal**
+Este repositorio permite a desarrolladores y equipos **personalizar el comportamiento de GitHub Copilot** para que se ajuste mejor a sus necesidades específicas, estándares de codificación y flujos de trabajo.
+
+### 📁 **Contenido del Repositorio**
+1. **Instrucciones Personalizadas** (`/instructions/`): Archivos `.instructions.md` que definen cómo GitHub Copilot debe comportarse para tecnologías específicas (Angular, C#, Python, etc.)
+
+2. **Prompts Reutilizables** (`/prompts/`): Archivos `.prompt.md` que contienen plantillas de prompts para tareas específicas de desarrollo
+
+3. **Modos de Chat Personalizados** (`/chatmodes/`): Archivos `.chatmode.md` que definen diferentes contextos y comportamientos de interacción
+
+### 🚀 **Cómo Funciona**
+- **Descargas** las instrucciones, prompts o modos de chat que necesites
+- **Instalas** en tu VS Code usando los enlaces de instalación proporcionados
+- **GitHub Copilot** automáticamente usa estas personalizaciones cuando trabajas en tu código
+
+### 💡 **Beneficios**
+- ✅ **Consistencia**: Todas las respuestas de Copilot siguen tus estándares de equipo
+- ✅ **Eficiencia**: Evita repetir instrucciones en cada conversación
+- ✅ **Especialización**: Obtén ayuda específica para tu tecnología o dominio
+- ✅ **Reutilización**: Comparte configuraciones entre proyectos y equipos
+
+### 🔧 **Casos de Uso Típicos**
+- Establecer convenciones de nomenclatura para tu equipo
+- Definir patrones de arquitectura específicos
+- Configurar mejores prácticas de seguridad
+- Personalizar generación de código para frameworks específicos
+- Crear flujos de trabajo de revisión de código consistentes
+
+**En resumen**: Este repositorio te ayuda a "entrenar" a GitHub Copilot para que trabaje exactamente como tu equipo necesita, proporcionando una experiencia de IA más personalizada y efectiva para el desarrollo de software.
+
+---
+
+**DESCARGO DE RESPONSABILIDAD**: Este documento ha sido localizado por [GitHub Copilot](https://docs.github.com/copilot/about-github-copilot/what-is-github-copilot). Por lo tanto, puede contener errores. Si encuentras alguna traducción que sea inapropiada o incorrecta, por favor crea un [issue](../../issues).
